@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+      <div class="container">
+        <h2>Hello, I'm Komal Punwatkar</h2>
+        <p>A passionate developer crafting elegant web experiences.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I’m a passionate Software Engineer who loves transforming ideas into real-world solutions through code. My journey started not just with a keyboard, but with curiosity — I always wondered how things worked behind the screen. This curiosity turned into a passion, and that passion into a profession.<br>👨‍💻 I specialize in building responsive, user-focused web applications that combine clean design with powerful functionality. From front-end interfaces to back-end logic, I enjoy the full-stack adventure.
+
+🛠️ Technologies I love: JavaScript, React, Node.js, MongoDB, and Python — but I’m always learning something new.
+
+💬 I believe great software is about people, not just code. That’s why I value collaboration, communication, and continuous learning just as much as technical skill.</p>
+        <div class="skills">
+          <div class="skill">
+            <label>HTML</label>
+            <div class="progress-bar"><span style="width: 90%"></span></div>
+          </div>
+          <div class="skill">
+            <label>CSS</label>
+            <div class="progress-bar"><span style="width: 85%"></span></div>
+          </div>
+          <div class="skill">
+            <label>JavaScript</label>
+            <div class="progress-bar"><span style="width: 75%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="img1.png" alt="Project 1">
+            <h3>EAuction Website</h3>
+            <p>This project addresses the challenges farmers face with low market prices and the growing consumer demand for fresh, high-quality farm products. The platform allows farmers to sell their goods at higher prices, boosting their earnings, while consumers gain direct access to fresh produce. 
+
+</p>
+            
+          </div>
+          <div class="project-card">
+            <img src="img2.png" alt="Project 2">
+            <h3>ShikshaHub Website</h3>
+            <p>ShikshaHub is a modern educational platform designed to streamline classroom management for students, teachers, and administrators. Built using the MERN stack (MongoDB, Express.js, React, and Node.js), the website allows users to register with distinct roles, join or create classes, and manage academic activities in a collaborative environment</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-links">
+          <a href="komalpunwatkar1@gmail.com">Email</a>
+          <a href="www.linkedin.com/in/komal-punwatkar-244420259" target="_blank">LinkedIn</a>
+          <a href="https://github.com/komalp2905/credora-task2.git" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Komal Punwatkar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
